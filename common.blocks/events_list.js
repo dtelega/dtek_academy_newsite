@@ -30,10 +30,15 @@ function eventList() {
 
 }
 
-eventList.prototype.display = function () {
+eventList.prototype.refresh = function () {
 
 	var container = document.getElementById("events-list");
-    var index, len;
+
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
+    }
+
+	var index, len;
     for (index = 0, len = this.schedule.events.length; index < len; ++index) {
         if (this.schedule.events[index].date >= this.datestart)
        		break;
@@ -99,3 +104,7 @@ eventList.prototype.getDates = function (month) {
     return dates;
 };
 
+eventList.prototype.setDateStart = function (date) {
+    this.datestart = date;
+    this.refresh();
+};
