@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://dtekacademy.com/img/logo/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://dtekacademy.com/img/logo/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://dtekacademy.com/img/logo/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://dtekacademy.com/img/logo/favicon/manifest.json">
+    <link rel="mask-icon" href="https://dtekacademy.com/img/logo/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://dtekacademy.com/img/logo/favicon/favicon.ico">
+
+    <!--slider-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="common.blocks/main_calendar.css">
+
+    <!--link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900" rel="stylesheet"-->
+    <meta name="msapplication-config" content="img/logo/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <title>Академия ДТЭК: Образовательная платформа для бизнеса в Украине</title>
+    <meta name="description" content="Консалтинг, корпоративное обучение, тренинги  для вашего бизнеса от экспертов Академии ДТЭК.">
+
+
+
+    <link rel="stylesheet" type="text/css" href="common.blocks/jsCalendar.css">
+
+    <!-- jsCalendar -->
+    <script type="text/javascript" src="common.blocks/jsCalendar.js"></script>
+
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--slider-->
+    <script src="js/modernizr.custom.js"></script>
+
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7243260-2']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+    <style>
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section,
+        main {
+            display: block;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/newstyle.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="reigistr_menu">
+            <div class="top-bar">
+                <ul class="left-side">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-phone-square"></i> +38044 594 42 03</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="#">Блог</a>
+                    </li>
+                </ul>
+
+
+                <ul class="right-side">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-globe"></i> RU
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Вход</a>
+                    </li>
+                    <li>
+                        <a href="#">Регистрация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="logo">
+                <div>
+                    <a class="link_main_page" href="#">
+                        <svg class="svg_logo" xmlns="http://www.w3.org/2000/svg" viewBox="160 190 538 214.5">
+                            <path fill="rgba(254,209,0,1)" d="M186.9 316.3H166v83.5h20.9c22.8 0 41.2-18.7 41.2-41.8.1-23-18.4-41.7-41.2-41.7"></path>
+                            <path d="M187 291.3h-21v25h21c22.7 0 41.2 18.7 41.2 41.7 0 23.1-18.5 41.8-41.2 41.8h-21v25h21c36.4 0 66.7-27 66.7-66.8 0-40.2-30.3-66.7-66.7-66.7m53.3 108.5v25H265v-25h-24.7zm247.4-41.7l48.5-49.1v-17.7h-18.3l-56.7 57.4v-57.4H240.5v25H287v108.5h25.9V316.3h46.7c-8.5 11-13.7 25.2-13.7 41.7 0 39.8 30.3 66.8 66.7 66.8h48.5v-57.4l56.7 57.4h35.8l-65.9-66.7zm-52.4 41.7h-22.6c-18.6 0-34.3-12.5-39.4-29.7h36.6V346h-36.6c5.1-17.1 20.9-29.6 39.4-29.6h22.6v83.4z"></path>
+                            <g>
+                                <path d="M190.3 170.4h14.8l29.5 77.6h-15.2l-6-16h-31.3l-6.2 16h-15.2l29.6-77.6zm7.5 20.6l-10.3 26.6H208L197.8 191zM244.3 190.6h14.2v21.5l19.6-21.5h17.4l-25.2 28 25.5 29.4h-18.9L260 227.7l-1.5 1.8V248h-14.2v-57.4zM343.4 190.6h14.2V248h-14.2v-6.1c-2.8 2.7-5.6 4.6-8.4 5.8-2.8 1.2-5.8 1.8-9.1 1.8-7.3 0-13.6-2.9-19-8.6-5.3-5.7-8-12.9-8-21.4 0-8.9 2.6-16.1 7.8-21.8 5.2-5.7 11.4-8.5 18.8-8.5 3.4 0 6.6.6 9.6 2 3 1.3 5.7 3.3 8.3 5.9v-6.5zm-15 11.8c-4.4 0-8 1.6-11 4.7-2.9 3.1-4.4 7.2-4.4 12.1 0 5 1.5 9 4.4 12.2 3 3.2 6.6 4.8 10.9 4.8 4.5 0 8.2-1.6 11.1-4.7 2.9-3.1 4.4-7.3 4.4-12.4 0-5-1.5-9-4.4-12.1-2.8-3-6.5-4.6-11-4.6zM379.3 248v10h-12.7v-22.2h8.5l19.6-45.2h9.2l19.8 45.2h8.7V258h-13.5v-10h-39.6zm29.3-12.2l-9.3-24.2-9.6 24.2h18.9zM498.1 223.5h-45.7c.7 4.1 2.4 7.3 5.3 9.7 2.9 2.4 6.5 3.6 11 3.6 5.3 0 9.9-1.9 13.7-5.6l12 5.7c-3 4.3-6.6 7.5-10.7 9.5s-9.1 3.1-14.8 3.1c-8.9 0-16.1-2.8-21.7-8.5-5.6-5.7-8.4-12.8-8.4-21.3 0-8.8 2.8-16 8.4-21.8 5.6-5.8 12.6-8.7 21-8.7 8.9 0 16.2 2.9 21.8 8.7 5.6 5.8 8.4 13.4 8.4 22.9l-.3 2.7zm-14.2-11.4c-.9-3.2-2.8-5.8-5.6-7.8s-6-3-9.6-3c-4 0-7.4 1.1-10.4 3.4-1.9 1.4-3.6 3.9-5.2 7.4h30.8zM544.3 226.8l17.4-36.2h9.4l14.2 57.4h-13.9l-7.6-33.7-16.9 33.7h-5.8l-16.5-33.7L517 248h-13.9l14.2-57.4h9.4l17.6 36.2zM600.7 248h-7.6v-57.4H607v33.7l29-33.7h6.8V248H629v-33l-28.3 33zM666.8 224.5c-3.1-1-5.6-2.9-7.5-5.8-2-2.8-2.9-6-2.9-9.6 0-4.3 1.2-8 3.6-11.2 2.4-3.2 5.3-5.2 8.6-6.1 3.3-.8 8.5-1.3 15.5-1.3h14.4V248h-14.2v-20.8h-2.8L667.9 248h-16.8l15.7-23.5zm17.4-8.1v-13.8h-5c-5.4 0-8.1 2.3-8.1 6.9 0 4.6 3 6.9 9 6.9h4.1z"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <input type="checkbox" id="menu-checkbox">
+            <nav role="navigation">
+                <label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
+                <ul class="main-menu">
+                    <li>
+                        <a href="#">Программы</a>
+                    </li>
+                    <li>
+                        <a href="#">Консалтинг</a>
+                    </li>
+                    <li>
+                        <a href="#">E-Learning</a>
+                    </li>
+                    <li>
+                        <a href="#">Мероприятия</a>
+                    </li>
+                    <li>
+                        <a href="#">Академия</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="container">
+            <div class="slideshow" id="slideshow">
+                <ol class="slides">
+                    <li class="current">
+                        <div class="description darken-with-text">
+                            <h2>Образовательная платформа для бизнеса ФОТО НЕ БЄКГРАУНДОМ, А IMG</h2>
+                            <p>Небольшой текст про то, что за платформа такая эта Академия ДТЭК</p>
+                            <button class="default-button">ПОДРОБНЕЕ</button>
+                        </div>
+                        <div class="tiltview col">
+                            <a href="http://grovemade.com/">
+                                <img src="" />
+                            </a>
+                            <a href="https://tsovet.com/">
+                                <img src="" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="description">
+                            <h2>CSS Animations</h2>
+                            <p>We are using 12 different animations for showing and hiding the items of a slide. The animations
+                                are defined by randomly adding data-attributes called
+                                <code>data-effect-in</code> and
+                                <code>data-effect-out</code> for every slide. </p>
+                        </div>
+                        <div class="tiltview row">
+                            <a href="http://pexcil.com/">
+                                <img src="img/3_mobile.jpg" />
+                            </a>
+                            <a href="http://foodsense.is/">
+                                <img src="img/4_mobile.jpg" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="description">
+                            <h2>Tilted Items</h2>
+                            <p>The perspective view is achieved by adding a perspective value to the slide list item and tilting
+                                a division that contains the two screenshots.</p>
+                        </div>
+                        <div class="tiltview col">
+                            <a href="http://minimalmonkey.com/">
+                                <img src="img/5_screen.jpg" />
+                            </a>
+                            <a href="http://www.herschelsupply.com/">
+                                <img src="img/6_screen.jpg" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="description">
+                            <h2>Column or Row</h2>
+                            <p>The items in the tilted container are either laid out in a column or in a row. For some directions
+                                we need to adjust the animation delays for the items, since we don't want the items to overlap
+                                each other when they move in or out.</p>
+                        </div>
+                        <div class="tiltview row">
+                            <a href="http://grovemade.com/">
+                                <img src="img/1_mobile.jpg" />
+                            </a>
+                            <a href="https://tsovet.com/">
+                                <img src="img/2_mobile.jpg" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="description">
+                            <h2>Responsiveness</h2>
+                            <p>For smaller screens, the items on the right hand side will become less opaque and serve as decoration
+                                only. The focus will be on the description which will occupy all the width.</p>
+                        </div>
+                        <div class="tiltview col">
+                            <a href="http://pexcil.com/">
+                                <img src="img/3_screen.jpg" />
+                            </a>
+                            <a href="http://foodsense.is/">
+                                <img src="img/4_screen.jpg" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="description">
+                            <h2>Navigation</h2>
+                            <p>For the "line" navigation we use a little trick to make the clickable area a bit bigger: we add
+                                a thick white border to the top and bottom of the span. Since the border is part of the element,
+                                it will be part of the clickable zone.</p>
+                        </div>
+                        <div class="tiltview row">
+                            <a href="http://minimalmonkey.com/">
+                                <img src="img/5_mobile.jpg" />
+                            </a>
+                            <a href="http://www.herschelsupply.com/">
+                                <img src="img/6_mobile.jpg" />
+                            </a>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="butt">
+            <button class="calltoaction-button">CALL-TO-ACTION</button>
+        </div>
+    </section>
+
+    <section class="courses">
+        <div class="courses-container">
+            <h2>Направления</h2>
+            <div class="courses-cards">
+                <div class="card">
+                    <div class="top-card">
+                        <img src="img/director.jpg" alt="Для руководителей">
+                    </div>
+                    <div class="bottom-card">
+                        <h3>
+                            Для руководителей
+                        </h3>
+                        <p>Пара слов о направлении
+                            <br> для затравочки</p>
+                        <button class="default-button">ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                        <img src="img/hr.jpg" alt="Для руководителей">
+                    </div>
+                    <div class="bottom-card">
+                        <h3>
+                            Для HR
+                        </h3>
+                        <p>Пара слов о направлении
+                            <br> для затравочки</p>
+                        <button class="default-button">ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                        <img src="img/corporate.jpg" alt="Для руководителей">
+                    </div>
+                    <div class="bottom-card">
+                        <h3>
+                            Корпоративное обучение
+                        </h3>
+                        <p>Пара слов о направлении
+                            <br> для затравочки</p>
+                        <button class="default-button">ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                        <img src="img/personalgrowth.jpg" alt="Для руководителей">
+                    </div>
+                    <div class="bottom-card">
+                        <h3>
+                            Личное развитие
+                        </h3>
+                        <p>Пара слов о направлении
+                            <br> для затравочки</p>
+                        <button class="default-button">ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="event-calendar">
+
+        <h2>Календарь событий</h2>
+        <div class="events-calendar-container">
+            <div class="events-cards-container" id="events-list"></div>
+
+
+
+
+            <div class="event-calendar__calendar" id="events-calendar"></div>
+            <!--<div id="events"></div>-->
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        var calendar = jsCalendar.new(".event-calendar__calendar");
+        //set title to center
+        var calTitle = document.getElementsByClassName('jsCalendar-title-name')[0];//.offsetWidth;
+        var calBox = document.getElementsByClassName('jsCalendar-title')[0];//getElementById('events-calendar');//.offsetWidth;
+        calendar.onMonthChange(function(event, date) {
+            calTitle.style.left = (calBox.offsetWidth - calTitle.offsetWidth) / 2 - 40 + "px";
+        });
+        calTitle.style.left = (calBox.offsetWidth - calTitle.offsetWidth) / 2 - 40 + "px";
+    </script>
+    <script src="common.blocks/events_list.js"></script>
+
+    <!--<script type="text/javascript">-->
+    <!--// Get elements-->
+    <!--var elements = {-->
+    <!--// Calendar element-->
+    <!--calendar : document.getElementById("events-calendar"),-->
+    <!--// Input element-->
+    <!--events : document.getElementById("events")-->
+    <!--}-->
+    <!--var calendar = jsCalendar.new(".event-calendar__calendar");-->
+    <!--//-->
+    <!--// // Create the calendar-->
+    <!--// elements.calendar.className = "clean-theme";-->
+    <!--// var calendar = jsCalendar.new(elements.calendar);-->
+    <!--//-->
+    <!--// // Create events elements-->
+    <!--elements.title = document.createElement("div");-->
+    <!--elements.title.className = "title";-->
+    <!--elements.events.appendChild(elements.title);-->
+    <!--elements.subtitle = document.createElement("div");-->
+    <!--elements.subtitle.className = "subtitle";-->
+    <!--elements.events.appendChild(elements.subtitle);-->
+    <!--elements.list = document.createElement("div");-->
+    <!--elements.list.className = "list";-->
+    <!--elements.events.appendChild(elements.list);-->
+    <!--elements.actions = document.createElement("div");-->
+    <!--elements.actions.className = "action";-->
+    <!--elements.events.appendChild(elements.actions);-->
+    <!--elements.addButton = document.createElement("input");-->
+    <!--elements.addButton.type = "button";-->
+    <!--elements.addButton.value = "Add";-->
+    <!--elements.actions.appendChild(elements.addButton);-->
+
+
+
+    <!--var events = {};-->
+    <!--var date_format = "DD/MM/YYYY";-->
+    <!--var current = null;-->
+
+    <!--var showEvents = function(date){-->
+    <!--// Date string-->
+    <!--var id = jsCalendar.tools.dateToString(date, date_format, "en");-->
+    <!--// Set date-->
+    <!--current = new Date(date.getTime());-->
+    <!--// Set title-->
+    <!--elements.title.textContent = id;-->
+    <!--// Clear old events-->
+    <!--elements.list.innerHTML = "";-->
+    <!--// Add events on list-->
+    <!--if (events.hasOwnProperty(id) && events[id].length) {-->
+    <!--// Number of events-->
+    <!--elements.subtitle.textContent = events[id].length + " " + ((events[id].length > 1) ? "events" : "event");-->
+
+    <!--var div;-->
+    <!--var close;-->
+    <!--// For each event-->
+    <!--for (var i = 0; i < events[id].length; i++) {-->
+    <!--div = document.createElement("div");-->
+    <!--div.className = "event-item";-->
+    <!--div.textContent = (i + 1) + ". " + events[id][i].name;-->
+    <!--elements.list.appendChild(div);-->
+    <!--close = document.createElement("div");-->
+    <!--close.className = "close";-->
+    <!--close.textContent = "×";-->
+    <!--div.appendChild(close);-->
+    <!--close.addEventListener("click", (function (date, index) {-->
+    <!--return function () {-->
+    <!--removeEvent(date, index);-->
+    <!--}-->
+    <!--})(date, i), false);-->
+    <!--}-->
+    <!--} else {-->
+    <!--elements.subtitle.textContent = "No events";-->
+    <!--}-->
+    <!--};-->
+
+    <!--var removeEvent = function (date, index) {-->
+    <!--// Date string-->
+    <!--var id = jsCalendar.tools.dateToString(date, date_format, "en");-->
+
+    <!--// If no events return-->
+    <!--if (!events.hasOwnProperty(id)) {-->
+    <!--return;-->
+    <!--}-->
+    <!--// If not found-->
+    <!--if (events[id].length <= index) {-->
+    <!--return;-->
+    <!--}-->
+
+    <!--// Remove event-->
+    <!--events[id].splice(index, 1);-->
+
+    <!--// Refresh events-->
+    <!--showEvents(current);-->
+
+    <!--// If no events uncheck date-->
+    <!--if (events[id].length === 0) {-->
+    <!--calendar.unselect(date);-->
+    <!--}-->
+    <!--}-->
+
+    <!--// Show current date events-->
+    <!--showEvents(new Date());-->
+
+    <!--// Add events-->
+    <!--calendar.onDateClick(function(event, date){-->
+    <!--// Update calendar date-->
+    <!--calendar.set(date);-->
+    <!--// Show events-->
+    <!--showEvents(date);-->
+    <!--});-->
+
+    <!--elements.addButton.addEventListener("click", function(){-->
+    <!--// Get event name-->
+    <!--var names = ["John", "Bob", "Anna", "George", "Harry", "Jack", "Alexander"];-->
+    <!--var name = prompt(-->
+    <!--"Event info",-->
+    <!--names[Math. floor(Math.random() * names.length)] + "'s birthday."-->
+    <!--);-->
+
+    <!--//Return on cancel-->
+    <!--if (name === null || name === "") {-->
+    <!--return;-->
+    <!--}-->
+
+    <!--// Date string-->
+    <!--var id = jsCalendar.tools.dateToString(current, date_format, "en");-->
+
+    <!--// If no events, create list-->
+    <!--if (!events.hasOwnProperty(id)) {-->
+    <!--// Select date-->
+    <!--calendar.select(current);-->
+    <!--// Create list-->
+    <!--events[id] = [];-->
+    <!--}-->
+
+    <!--// Add event-->
+    <!--events[id].push({name : name});-->
+
+    <!--// Refresh events-->
+    <!--showEvents(current);-->
+    <!--}, false);-->
+    <!--</script>-->
+
+
+    <script src="js/classie.js"></script>
+    <script src="js/tiltSlider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="common.blocks/main_calendar.js"></script>
+
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+
+    <script>
+        new TiltSlider(document.getElementById('slideshow'));
+    </script>
+    <!-- For the demo ad only -->
+    <!--<script src="http://tympanus.net/codrops/adpacks/demoad.js"></script>-->
+
+</body>
+
+</html>
