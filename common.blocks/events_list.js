@@ -98,3 +98,4 @@ eventList.prototype.getDates = function (month) {
     });
     return dates;
 };
+
