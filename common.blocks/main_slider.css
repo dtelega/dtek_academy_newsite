@@ -67,6 +67,11 @@
     opacity: 0;
 }
 
+.description p{
+    font-size: 16px;
+
+}
+
 .no-js .description {
     opacity: 1;
 }
