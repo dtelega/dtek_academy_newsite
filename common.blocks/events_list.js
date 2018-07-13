@@ -2,15 +2,15 @@ var schedule = '{\
 		"events": [ \
 			{\
 				"title":"Трансформационные инновации",\
-				"date":"2014-11-30T12:00:00.000Z",\
+				"date":"2018-07-15T12:00:00.000Z",\
 				"person":"Для директора",\
 				"type":"Лекция",\
 				"img":"img/hr-system.jpg",\
 				"url":"#"\
 			}, \
-			{"title":"Событие мирового уровня","date":"2015-04-18T12:00:00.000Z","img":"img/hr-system.jpg"},\
-			{"title":"Событие мирового уровня","date":"2013-04-18T12:00:00.000Z","img":"img/hr-system.jpg"},\
-			{"title":"Событие уровня попроще","date":"2014-04-18T12:00:00.000Z","img":"img/hr-system.jpg"}\
+			{"title":"Событие мирового уровня","date":"2018-07-19T12:00:00.000Z","img":"img/hr-system.jpg"},\
+			{"title":"Событие мирового уровня","date":"2018-07-21T12:00:00.000Z","img":"img/hr-system.jpg"},\
+			{"title":"Событие уровня попроще","date":"2018-07-18T12:00:00.000Z","img":"img/hr-system.jpg"}\
 		]\
 }';
 
@@ -19,7 +19,8 @@ function sortByDate(a, b) {
 }
 
 function eventList() {
-	this.startdate =
+
+	this.datestart = new Date();
 	this.schedule = JSON.parse(schedule, function (key, value) {
 		if (key == 'date')
 			return new Date(value);
@@ -27,14 +28,18 @@ function eventList() {
 	});
     this.schedule.events.sort(sortByDate);
 
-	// this.init();
 }
 
-eventList.prototype.init = function () {
+eventList.prototype.display = function () {
 
 	var container = document.getElementById("events-list");
+    var index, len;
+    for (index = 0, len = this.schedule.events.length; index < len; ++index) {
+        if (this.schedule.events[index].date >= this.datestart)
+       		break;
+    }
 
-	for (var i = 0; i < 3; i++) {
+	for (var i = index, len = index + 3; i < this.schedule.events.length && i < len; i++) {
 
 		var card = document.createElement("DIV");
 		var cardimg = document.createElement("DIV");
@@ -45,7 +50,6 @@ eventList.prototype.init = function () {
 
 		var textnode = document.createTextNode(this.schedule.events[i].title);
 
-		// image.src = this.schedule.events[i].img;
 
 		title.className = "event-title";
 		card.className = "event-card";
@@ -86,10 +90,11 @@ eventList.prototype.getMonthName = function (month) {
     return monthList[month];
 };
 
-(function(){
-    window.addEventListener('load', function() {
-        var list = new eventList();
-        list.init();
-    }, false);
-})();
+eventList.prototype.getDates = function (month) {
+    var dates = [];
 
+    this.schedule.events.forEach(function(entry) {
+        dates[dates.length] = entry.date;
+    });
+    return dates;
+};

@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="aadc568c-4409-4909-9fe6-51047a06e9fc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/component.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TRASH/calendar-round/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TRASH/calendar-round/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.blocks/events_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.blocks/events_list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.blocks/main_calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/common.blocks/main_calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,27 +23,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="410">
+              <caret line="353" column="35" lean-forward="true" selection-start-line="353" selection-start-column="35" selection-end-line="353" selection-end-column="35" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/layout.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="newstyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/newstyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -51,8 +38,17 @@
       <file leaf-file-name="main_calendar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common.blocks/main_calendar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="970">
-              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events_list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common.blocks/events_list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -71,6 +67,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsCalendar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common.blocks/jsCalendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="353" column="40" lean-forward="true" selection-start-line="353" selection-start-column="40" selection-end-line="353" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -97,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nav</find>
       <find>.slides</find>
       <find>.slideshow</find>
       <find>news</find>
@@ -113,16 +117,21 @@
       <find>autoFind</find>
       <find>this._elements.month</find>
       <find>aler</find>
-      <find />
+      <find>this.boxname</find>
       <find>alert</find>
       <find>jsCalendar.</find>
       <find>new</find>
       <find>_parseArguments</find>
-      <find>onDateClick</find>
       <find>onM</find>
       <find>css</find>
       <find>css/</find>
       <find>widt</find>
+      <find>select</find>
+      <find>current</find>
+      <find>onDateClick</find>
+      <find>getDa</find>
+      <find>getTime</find>
+      <find>.getTime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,15 +145,15 @@
         <option value="$PROJECT_DIR$/common.blocks/main_calendar.js" />
         <option value="$PROJECT_DIR$/TRASH/trash" />
         <option value="$PROJECT_DIR$/common.blocks/jsCalendar.js" />
-        <option value="$PROJECT_DIR$/common.blocks/events_list.js" />
         <option value="$PROJECT_DIR$/styles/media.css" />
         <option value="$PROJECT_DIR$/css/component.css" />
         <option value="$PROJECT_DIR$/css/demo.css" />
         <option value="$PROJECT_DIR$/common.blocks/main_slider.css" />
         <option value="$PROJECT_DIR$/css/calendar.css" />
-        <option value="$PROJECT_DIR$/common.blocks/main_calendar.css" />
         <option value="$PROJECT_DIR$/styles/newstyle.css" />
         <option value="$PROJECT_DIR$/styles/layout.css" />
+        <option value="$PROJECT_DIR$/common.blocks/main_calendar.css" />
+        <option value="$PROJECT_DIR$/common.blocks/events_list.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -183,7 +192,17 @@
             <path>
               <item name="DTEK" type="b2602c69:ProjectViewProjectNode" />
               <item name="DTEK" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DTEK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DTEK" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DTEK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DTEK" type="462c0819:PsiDirectoryNode" />
+              <item name="TRASH" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,12 +250,12 @@
       <workItem from="1531126597474" duration="22734000" />
       <workItem from="1531325093740" duration="14752000" />
       <workItem from="1531403212804" duration="6310000" />
-      <workItem from="1531467151506" duration="14096000" />
+      <workItem from="1531467151506" duration="19928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57892000" />
+    <option name="totallyTimeSpent" value="63724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -276,6 +295,7 @@
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -344,6 +364,7 @@
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -443,31 +464,10 @@
     <entry file="file://$PROJECT_DIR$/TiltedContentSlideshow/index.html" />
     <entry file="file://$PROJECT_DIR$/TiltedContentSlideshow/css/component.css" />
     <entry file="file://$PROJECT_DIR$/common.blocks/jsCalendar.lang.ru.js" />
-    <entry file="file://$PROJECT_DIR$/TRASH/trash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common.blocks/main_calendar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="1194" column="3" selection-start-line="1194" selection-start-column="3" selection-end-line="1194" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.blocks/jsCalendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2854">
-          <caret line="633" column="4" selection-start-line="633" selection-start-column="4" selection-end-line="633" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.blocks/events_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -512,12 +512,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common.blocks/main_calendar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/newstyle.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -526,17 +522,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/layout.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/TRASH/trash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="57" column="41" lean-forward="true" selection-end-line="57" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.blocks/main_calendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.blocks/events_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.blocks/jsCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="353" column="40" lean-forward="true" selection-start-line="353" selection-start-column="40" selection-end-line="353" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="410">
+          <caret line="353" column="35" lean-forward="true" selection-start-line="353" selection-start-column="35" selection-end-line="353" selection-end-column="35" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
