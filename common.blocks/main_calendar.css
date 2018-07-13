@@ -1,27 +1,28 @@
 td.jsCalendar-selected:hover {
     cursor: pointer;
 }
+
 td.jsCalendar-selected:after {
-    background: red;
+    background: #FED100;
     border-radius: 50%;
     bottom: .5em;
     display: block;
     content: '';
     height: .5em;
-    left: 50%;
-    margin: -.25em 0 0 -.25em;
+    left: 25%;
+    /*margin: -.25em 0 0 -.25em;*/
     position: relative;
     width: .5em;
 }
 
 .events-calendar-container{
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 260px;
+    grid-gap: 10px;
     margin: 0 auto;
 }
 .events-cards-container {
-    width: 70%;
+    height: 330px;
     display: flex;
     flex-direction: column;
     content: " ";
@@ -44,7 +45,6 @@ td.jsCalendar-selected:after {
 .event-card-img{
     width: 22.5%;
     flex-shrink: 0;
-    min-height: 140px;
 }
 
 .event-card-info {
@@ -65,6 +65,9 @@ td.jsCalendar-selected:after {
 .jsCalendar-title-name {
     position: relative;
 }
+
+
+
 /*@charset "utf-8";*/
 /*!* CSS Document *!*/
 

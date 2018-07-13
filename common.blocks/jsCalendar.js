@@ -37,22 +37,20 @@ var jsCalendar = (function(){
 
     // Languages
     JsCalendar.prototype.languages = {
-        // Default English language
-        en : {
-            months : ["январь",
-                "февраль",
-                "март",
-                "апрель",
-                "май",
-                "июнь",
-                "июль",
-                "август",
-                "сентябрь",
-                "октябрь",
-                "ноябрь",
-                "декабрь"],
-            // Days Names
-            days : ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'],
+        ru : {
+            months : ["Январь",
+                "Февраль",
+                "Март",
+                "Апрель",
+                "Май",
+                "Июнь",
+                "Июль",
+                "Август",
+                "Сентябрь",
+                "Октябрь",
+                "Ноябрь",
+                "Декабрь"],
+            days : ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
             // Default handlers
             _dateStringParser : function(key, date) {return JsCalendar._defaultDateStringParser(key, date, this);},
             _dayStringParser : function(key, date) {return JsCalendar._defaultDayStringParser(key, date, this);}
@@ -93,7 +91,7 @@ var jsCalendar = (function(){
     JsCalendar.prototype._parseOptions = function(options) {
         // Default options
         this._options = {
-            language : 'en',
+            language : 'ru',
             zeroFill : false,
             monthFormat : 'month YYYY',
             dayFormat : 'DD',
@@ -1031,7 +1029,7 @@ var jsCalendar = (function(){
         // Find lang
         var languages = JsCalendar.prototype.languages;
         if (!lang || !languages.hasOwnProperty(lang)) {
-            lang = 'en';
+            lang = 'ru';
         }
 
         // Call parser

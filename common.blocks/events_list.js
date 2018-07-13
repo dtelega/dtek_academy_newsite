@@ -18,6 +18,18 @@ function sortByDate(a, b) {
     return new Date(a.date).getTime() - new Date(b.date).getTime();
 }
 
+//Check wether there is an event at that day
+function dateHasEvent(date, eventList) {
+    var index, len;
+
+    for (index = 0, len = eventList.events.length; index < len; ++index) {
+        if (eventList.events[index].date.getDate() == date.getDate() &&
+            eventList.events[index].date.getDay() == date.getDay())
+            return true;
+    }
+    return false;
+}
+
 function eventList() {
 
 	this.datestart = new Date();
@@ -105,6 +117,10 @@ eventList.prototype.getDates = function (month) {
 };
 
 eventList.prototype.setDateStart = function (date) {
+    if(!dateHasEvent(date, this.schedule))
+        return ;
+
     this.datestart = date;
     this.refresh();
 };
+
