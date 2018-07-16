@@ -369,22 +369,22 @@
 
 	<script src="common.blocks/events_list.js"></script>
 	<script type="text/javascript">
-		var calendar = jsCalendar.new(".event-calendar__calendar");
+		let calendar = jsCalendar.new(".event-calendar__calendar");
 
-		var current = null;
+		let current = null;
 
 		//set title to center
-		var calTitle = document.getElementsByClassName('jsCalendar-title-name')[0];//.offsetWidth;
-		var calBox = document.getElementsByClassName('jsCalendar-title')[0];//getElementById('events-calendar');//.offsetWidth;
+		let calTitle = document.getElementsByClassName('jsCalendar-title-name')[0];//.offsetWidth;
+		let calBox = document.getElementsByClassName('jsCalendar-title')[0];//getElementById('events-calendar');//.offsetWidth;
 		calendar.onMonthChange(function (event, date) {
 			calTitle.style.left = (calBox.offsetWidth - calTitle.offsetWidth) / 2 - 40 + "px";
 		});
 
 		calTitle.style.left = (calBox.offsetWidth - calTitle.offsetWidth) / 2 - 40 + "px";
 
-		var list = new eventList();
+		let list = new eventList();
 		list.refresh();
-		var datesList = list.getDates();
+		let datesList = list.getDates();
 
 		calendar.select(datesList);
 		calendar.onDateClick(function (event, date) {

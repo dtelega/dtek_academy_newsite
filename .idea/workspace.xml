@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aadc568c-4409-4909-9fe6-51047a06e9fc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/newstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/newstyle.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="364" column="57" selection-start-line="364" selection-start-column="57" selection-end-line="364" selection-end-column="57" />
+            <state relative-caret-position="438">
+              <caret line="409" column="7" lean-forward="true" selection-start-line="409" selection-start-column="7" selection-end-line="409" selection-end-column="7" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -34,20 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_calendar.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common.blocks/main_calendar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="newstyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/newstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="227" column="1" lean-forward="true" selection-start-line="227" selection-start-column="1" selection-end-line="227" selection-end-column="1" />
+            <state relative-caret-position="438">
+              <caret line="229" column="20" lean-forward="true" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -84,17 +73,17 @@
       <find>85%</find>
       <find>en</find>
       <find>en</find>
-      <find>font-size: 14px;</find>
+      <find />
       <find>18px</find>
       <find>layo</find>
       <find>jsCalendar-current</find>
       <find>event-calendar</find>
       <find>border-radius</find>
-      <find>box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);</find>
+      <find />
       <find>140px</find>
-      <find>grid-gap: 10px;</find>
+      <find />
       <find>jsCalendar-selected</find>
-      <find>.jsCalendar thead</find>
+      <find />
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,7 +196,7 @@
       <workItem from="1531403212804" duration="6310000" />
       <workItem from="1531467151506" duration="27676000" />
       <workItem from="1531652771774" duration="514000" />
-      <workItem from="1531747483322" duration="1266000" />
+      <workItem from="1531747483322" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="Calendar update">
       <created>1531490623139</created>
@@ -234,7 +223,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73252000" />
+    <option name="totallyTimeSpent" value="73505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="7" />
@@ -269,6 +258,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calendar update" />
     <option name="LAST_COMMIT_MESSAGE" value="Calendar update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common.blocks/main_calendar.css">
@@ -533,22 +527,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common.blocks/main_calendar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="-285">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/newstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="227" column="1" lean-forward="true" selection-start-line="227" selection-start-column="1" selection-end-line="227" selection-end-column="1" />
+        <state relative-caret-position="438">
+          <caret line="229" column="20" lean-forward="true" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="364" column="57" selection-start-line="364" selection-start-column="57" selection-end-line="364" selection-end-column="57" />
+        <state relative-caret-position="438">
+          <caret line="409" column="7" lean-forward="true" selection-start-line="409" selection-start-column="7" selection-end-line="409" selection-end-column="7" />
           <folding>
             <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
