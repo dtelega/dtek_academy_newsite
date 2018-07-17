@@ -244,7 +244,7 @@ section.popular-programm button.calltoaction-button {
     /*width: ;*/
     /*padding: 10px 40px;*/
     margin-bottom: 80px;
-    overflow: hidden;
+
 }
 
 .carousel img {
@@ -289,16 +289,16 @@ section.popular-programm button.calltoaction-button {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .gallery ul {
-    height: 200px;
+    height: 220px;
     width: 9999px;
     margin: 0;
     padding: 0;
     list-style: none;
     transition: margin-left 250ms;
-    /*font-size: 0;*/
 }
 
 .gallery li {
