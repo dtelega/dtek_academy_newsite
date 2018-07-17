@@ -234,21 +234,24 @@ section.popular-programm button.calltoaction-button {
 /* feedback section*/
 
 
-
+.feedback-container {
+    text-align: center;
+}
 
 
 .carousel {
     position: relative;
     /*width: ;*/
     /*padding: 10px 40px;*/
-
+    margin-bottom: 80px;
+    overflow: hidden;
 }
 
 .carousel img {
     width: 80px;
     height: 80px;
-
-
+    margin: 20px auto;
+    border-radius: 50%;
     display: block;
 }
 
