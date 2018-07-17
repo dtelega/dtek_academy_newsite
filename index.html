@@ -306,29 +306,37 @@
                 <div class="gallery">
                     <ul class="images">
                         <li>
-                            <div>"Ах какая академия чудесная, как я рад, что там учился, все замечательно"</div>
-                            <img src="https://js.cx/carousel/1.png">
-                            <div>Иван Петрович</div>
-                            <div>Директор АОА ААА</div>
+							<div class = "feedback-block">
+								<div>"Ах какая академия чудесная, как я рад, что там учился, все замечательно"</div>
+								<img src="https://js.cx/carousel/1.png">
+								<div>Иван Петрович</div>
+								<div>Директор АОА ААА</div>
+							</div>
                         </li>
-                        <li>
-                            <div>"Ах какая академия чудесная, как я рад, что там учился, все замечательно"</div>
-                            <img src="https://js.cx/carousel/1.png">
-                            <div>Иван Петрович</div>
-                            <div>Директор АОА ААА</div>
-                        </li>
-                        <li>
-                            <div>"Ах какая академия чудесная, как я рад, что там учился, все замечательно"</div>
-                            <img src="https://js.cx/carousel/1.png">
-                            <div>Иван Петрович</div>
-                            <div>Директор АОА ААА</div>
-                        </li>
-                        <li>
-                            <div>"Ах какая академия чудесная, как я рад, что там учился, все замечательно"</div>
-                            <img src="https://js.cx/carousel/1.png">
-                            <div>Иван Петрович</div>
-                            <div>Директор АОА ААА</div>
-                        </li>
+						<li>
+							<div class = "feedback-block">
+								<div>"Ах какая академия чудесная, как я рад, что там учился, все замечательно"</div>
+								<img src="https://js.cx/carousel/1.png">
+								<div>Иван Петрович</div>
+								<div>Директор АОА ААА</div>
+							</div>
+						</li>
+						<li>
+							<div class = "feedback-block">
+								<div>"Ах какая академия чудесная, как я рад, что там учился, все замечательно"</div>
+								<img src="https://js.cx/carousel/1.png">
+								<div>Иван Петрович</div>
+								<div>Директор АОА ААА</div>
+							</div>
+						</li>
+						<li>
+							<div class = "feedback-block">
+								<div>"Ах какая академия чудесная, как я рад, что там учился, все замечательно"</div>
+								<img src="https://js.cx/carousel/1.png">
+								<div>Иван Петрович</div>
+								<div>Директор АОА ААА</div>
+							</div>
+						</li>
                     </ul>
                 </div>
                 <button class="arrow next">⇨</button>
@@ -402,34 +410,12 @@
     <script>
 
 
-        /* конфигурация */
-        var width = 130; // ширина изображения
-        var count = 3; // количество изображений
 
-        var carousel = document.getElementById('carousel');
-        var list = carousel.querySelector('ul');
-        var listElems = carousel.querySelectorAll('li');
-
-        var position = 0; // текущий сдвиг влево
-
-        carousel.querySelector('.prev').onclick = function() {
-            // сдвиг влево
-            // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
-            position = Math.min(position + width * count, 0)
-            list.style.marginLeft = position + 'px';
-        };
-
-        carousel.querySelector('.next').onclick = function() {
-            // сдвиг вправо
-            // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
-            position = Math.max(position - width * count, -width * (listElems.length - count));
-            list.style.marginLeft = position + 'px';
-        };
     </script>
 
 	<script src="common.blocks/events_list.js"></script>
 	<script type="text/javascript">
-		let calendar = jsCalendar.new(".event-calendar__calendar");
+		/*let calendar = jsCalendar.new(".event-calendar__calendar");
 
 		let current = null;
 
@@ -452,6 +438,32 @@
 
 				list.setDateStart(date);
 			});
+
+*/
+
+		/*слайдер*/
+        var width = 250; // ширина изображения
+        var count = 1; // количество изображений
+
+        var carousel = document.getElementById('carousel');
+        var list = carousel.querySelector('ul');
+        var listElems = carousel.querySelectorAll('li');
+
+        var position = 0; // текущий сдвиг влево
+
+        carousel.querySelector('.prev').onclick = function() {
+            // сдвиг влево
+            // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+            position = Math.min(position + width * count, 0)
+            list.style.marginLeft = position + 'px';
+        };
+
+        carousel.querySelector('.next').onclick = function() {
+            // сдвиг вправо
+            // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+            position = Math.max(position - width * count, -width * (listElems.length - count));
+            list.style.marginLeft = position + 'px';
+        };
 	</script>
 
 	<script src="js/classie.js"></script>

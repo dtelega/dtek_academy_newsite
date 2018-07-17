@@ -237,4 +237,76 @@ section.popular-programm button.calltoaction-button {
 
 
 
+.carousel {
+    position: relative;
+    /*width: ;*/
+    /*padding: 10px 40px;*/
 
+}
+
+.carousel img {
+    width: 80px;
+    height: 80px;
+
+
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 60px;
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+.prev {
+    left: 7px;
+}
+
+.next {
+    right: 7px;
+}
+
+.gallery {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery ul {
+    height: 200px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    /*font-size: 0;*/
+}
+
+.gallery li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+
+.feedback-block {
+    height: 300px;
+    width: 200px;
+
+}
